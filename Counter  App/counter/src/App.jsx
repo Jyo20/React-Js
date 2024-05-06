@@ -2,7 +2,9 @@ import React, { useState } from "react";
 
 const App = () => {
   let [count, setCounter] = useState(0);
-  setCounter(count + 1);
+  let handleClick=()=>{
+    setCounter(count + 1);
+  }
   return (
     <div>
       <h1>Count :{count}</h1>
