@@ -10,6 +10,10 @@ Every time the button is clicked, the number should increment by 1
 
 Display the current number state in the text element
 
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

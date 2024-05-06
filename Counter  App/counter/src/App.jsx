@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 
 const App = () => {
-  let [counter, setCounter] = useState(0);
-  setCounter(counter + 1);
+  let [count, setCounter] = useState(0);
+  setCounter(count + 1);
   return (
     <div>
-      <h1>Count :{counter}</h1>
+      <h1>Count :{count}</h1>
       <button onClick={handleClick}>Click me</button>
     </div>
   );
