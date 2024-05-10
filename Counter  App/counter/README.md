@@ -36,9 +36,7 @@ Here we created a function to increment the count and used the setCount function
 
 Here we created a button element and added an onClick event handler to call the increment
 ````
-
 <button onClick={handleClick}>Click me</button>
-
 ```
 # create a heading tag to display count :
 Here we created a heading tag to display the count
