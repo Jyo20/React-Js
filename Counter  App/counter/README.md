@@ -28,18 +28,27 @@ Here we used useState Hooks to manage the states and set the initaial value to 0
 
 Here we created a function to increment the count and used the setCount function
 
-````let handleClick=()=>{
+```
+ let handleClick=()=>{
     setCounter(count + 1);
-  } ```
+  }
+```
 
 # Create a button element :
-
 Here we created a button element and added an onClick event handler to call the increment
+<<<<<<< HEAD
 ````
 <button onClick={handleClick}>Click me</button>
+=======
+
+>>>>>>> 8f2d2ae53b9ccc68ebedc26adca7317619c8f48c
 ```
+<button onClick={handleClick}>Click me</button>
+```
+
 # create a heading tag to display count :
 Here we created a heading tag to display the count
+
 ```
 <h1>Count: {count}</h1>
 ```
