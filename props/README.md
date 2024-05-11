@@ -1,7 +1,7 @@
 # Props
 * props is nothing but properties 
 * Using props we can able to transfer properties from one component to another component.
-* props are unmuttable.
+* props are immutable.
 * We can transfer any type of data ias props
 * We can transfer and receive data using props in both class based and function based components.
 * Always data flow will be parent to child
