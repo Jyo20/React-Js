@@ -47,6 +47,10 @@ Transfering data from Parent t Child as props
 ## fragment
 * Fragment is nothing but a tag which is used to group a set of elements without adding extra nodes to the DOM.
 * Its empty tag
+# Syntax
+```
+<> </>
+```
 
 
 # How to receive data in Child Component in function based component
