@@ -12,7 +12,7 @@
 * props come with property name along with the value.
  # Syntax :
  ```
-property_name=value;
+property_name="value";
 
  ```
 # Example :
