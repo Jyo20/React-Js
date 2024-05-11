@@ -106,7 +106,7 @@ it’s a React new feature that allows us to “hook” the functionality into f
    }}>Decrement Count </button>
  ```
  # Displaying State:
-  The current value of count is displayed using JSX within an <h1> element. React will automatically update this part of the UI whenever count changes.
+  The current value of count is displayed using JSX within an h1 element. React will automatically update this part of the UI whenever count changes.
 
   ```
 <h1>count: {count}</h1></>
