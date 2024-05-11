@@ -5,7 +5,7 @@
 * We can transfer any type of data ias props
 * We can transfer and receive data using props in both class based and function based components.
 * Always data flow will be parent to child
-*props return always object.
+* props return always object.
 
 # How to transfer data from parent to child in class based and function based component
 
@@ -68,8 +68,7 @@ export default function Child(props) {
 
  # How to receive data in class based component 
  * We can receive data in class based component using this.props
- * In clas based component this refers to the current component that is child component 
-* and also we can use constructor 
+ * In clas based component this refers to the current component that is child component  
  ```
 <h1> username: {this.props.username}</h1>
       <h1>Id : {this.props.id}</h1>
