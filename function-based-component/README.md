@@ -57,11 +57,12 @@ it’s a React new feature that allows us to “hook” the functionality into f
 
 ## Hooks Rules
 1) Hooks can only be called inside function based component.
-2) Hooks can be only called at the top  level of component.
+2) Hooks can be only called at the top level of component.
 3) Hooks can not be conditional. 
 
 # useState() Hook
-One of the essential hooks provided by React is the useState() hook, which is used to create the state and update the form. 
+* One of the essential hooks provided by React is the useState() hook, which is used to create the state and update the form.
+
 * This hook present inside react library/package
 
 * useState() take one argument that is state value and retrun one array with 2 element.
@@ -69,17 +70,17 @@ One of the essential hooks provided by React is the useState() hook, which is us
 * We can pass any data type as state value. 
  
  # Task 
- ==> You have to create two button oe is increment and second is decrement.
+ ==> You have to create two button one is increment and second is decrement.
 
- ==> When you click on increment button count value should be incremnet by one 
+ ==> When you click on increment button count value should be increment by one 
 
  ==> if you click on decrement button count value should be decrement by one
 
  ==> Display count value after the buttons 
 
- ## Reat Concept useState() hook
+ ## React Concept useState() hook
 
- React provides the useState hook to manage state in functional components. 
+ * React provides the useState hook to manage state in functional components. 
  It returns a stateful value and a function to update it.
   
   * In this case, count is the state variable, and setCount is the function to update it.
@@ -87,7 +88,7 @@ One of the essential hooks provided by React is the useState() hook, which is us
   ```
    let [count,setCount]=useState(0);
    ```
-Initializig state value initially 0.
+ Initializing state value initially 0.
 
 
 # Event Handling:
