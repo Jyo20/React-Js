@@ -52,6 +52,11 @@ Transfering data from Parent t Child as props
 <> </>
 ```
 
+# Syntax 
+```
+<></>
+```
+
 
 # How to receive data in Child Component in function based component
 
@@ -72,7 +77,12 @@ export default function Child(props) {
 
  # How to receive data in class based component 
  * We can receive data in class based component using this.props
+<<<<<<< HEAD
  * In clas based component this refers to the current component that is child component  
+=======
+ * In clas based component this refers to the current component that is child component 
+
+>>>>>>> 121ca38 (Updated README)
  ```
 <h1> username: {this.props.username}</h1>
       <h1>Id : {this.props.id}</h1>
